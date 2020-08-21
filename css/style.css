@@ -17,8 +17,19 @@ body {
 .container {
 	max-width: 945px;
 	margin: auto;
+}
 
+.section {
+	padding-top: 64px;
+	padding-bottom: 92px;
+}
 
+.section-title {
+	margin: 0px;
+	margin-bottom: 85px;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
 }
 
 .hero {
@@ -88,4 +99,11 @@ body {
 	background-repeat: no-repeat;
 	background-position: center -320px;
 	border: 12px solid #fff
+}
+
+/* BLOCK2 */
+
+.block2 {
+	background-color: #000;
+
 }
