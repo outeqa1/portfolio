@@ -49,6 +49,10 @@ body {
 	margin-left: 20px;
 }
 
+.social-link:first-child {
+	margin-left: 0;
+}
+
 .hero-content {
 	display: flex;
 	justify-content: space-between;
@@ -136,4 +140,112 @@ body {
 	font-size: 16px;
 	line-height: 28px;
 	margin: 0;
+}
+
+/* contacts */
+.contacts-form {
+	background: #FFFFFF;
+	box-shadow: -5px 5px 0px #FFC41D;
+	border-radius: 5px;
+	max-width: 380px;
+	padding-top: 40px;
+	padding-left: 48px;
+	padding-right: 48px;
+	padding: 49px;
+}
+
+.form-title {
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 29px;
+}
+
+.input {
+	border: none;
+	background: #F8F8F8;
+	box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+	border-radius: 5px;
+	padding: 18px 20px;
+	padding-left: 50px;
+	width: 100%;
+	font-size: 14px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+	color: #949494;
+}
+
+.input-name {
+	margin-bottom: 17px;
+	background-image: url(/img/phone/user-icon.svg);
+	background-repeat: no-repeat;
+	background-position: center left 20px;
+}
+
+.input-phone {
+	margin-bottom: 26px;
+	background-image: url(/img/phone/phone-icon.svg);
+	background-repeat: no-repeat;
+	background-position: center left 20px;
+}
+
+.button-form {
+	width: 100%;
+}
+
+.contacts-block {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contacts-text {
+	flex-basis: 50%;
+}
+
+.contacts-data {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 42px;
+}
+
+.contacts-phone,
+.contacts-mail {
+	margin-bottom: 53px;
+	flex-basis: 50%;
+}
+
+.contacts-social {
+	flex-basis: 100%;
+}
+
+.contacts-title {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.contacts-link {
+	text-decoration: none;
+	color: inherit;
+	margin-right: 37px;
+}
+
+.contacts-link:hover {
+	text-decoration: underline;
+}
+
+.contacts-policy {
+	display: inline-block;
+	margin-top: 72px;
+	font-size: 15px;
+	line-height: 18px;
+	text-decoration-line: underline;
+	color: #A5A5A5;
 }
