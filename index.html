@@ -7,12 +7,12 @@
 	<title>Шамкеев Акжол - фрилансер, веб-разработчик</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic">
 	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="/css/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<script src="\js/wow.min.js"></script>
-	<script src="\js/main.js"></script>
+
 	<div class="block1">
 		<div class="container">
 			<header class="hero">
@@ -110,11 +110,82 @@
 			<!-- FEATURES -->
 		</div>
 	</div>
-	<main class="section">
+	<section class="section projects">
 		<div class="container">
 			<h2 class="section-title">Последние проекты</h2>
-		</div>
-	</main>
+			<!-- Slider main container -->
+			<div class="swiper-container projects-slider">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide projects-slide">
+						<img src="/img/project-img.png" alt="Сайт строительной фирмы “Велстрой”" class="project-image">
+						<div class="project-text">
+							<h3 class="project-title">Сайт строительной фирмы “Велстрой”</h3>
+							<div class="project-time">
+								<img src="/img/slider/time-icon.svg" alt="Сроки" class="project-icon">
+								<div class="project-description">
+									<h4 class="project-subtitle">Сроки</h4>
+									<p class="project-paragraph">4 рабочих дня</p>
+								</div>
+							</div>
+							<div class="project-cost">
+								<img src="/img/slider/cost-icon.svg" alt="Стоимость" class="project-icon">
+								<div class="project-description">
+									<h4 class="project-subtitle">Стоимость</h4>
+									<p class="project-paragraph">14 000 рублей</p>
+								</div>
+							</div>
+							<div class="project-feedback">
+								<img src="/img/slider/feedback-icon.svg" alt="Отзыв клиента" class="project-icon">
+								<div class="project-description">
+									<h4 class="project-subtitle">Отзыв клиента</h4>
+									<p class="project-paragraph">Мне понравилось работать с Артемом, потому что он все время
+										был на
+										связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были
+										закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с
+										документами все в порядке</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide projects-slide slide2">
+						<img src="/img/project-img.png" alt="Сайт строительной фирмы “Велстрой”" class="project-image">
+						<div class="project-text">
+							<h3 class="project-title">Сайт строительной фирмы “Велстрой”</h3>
+							<div class="project-time">
+								<img src="/img/slider/time-icon.svg" alt="Сроки" class="project-icon">
+								<div class="project-description">
+									<h4 class="project-subtitle">Сроки</h4>
+									<p class="project-paragraph">4 рабочих дня</p>
+								</div>
+							</div>
+							<div class="project-cost">
+								<img src="/img/slider/cost-icon.svg" alt="Стоимость" class="project-icon">
+								<div class="project-description">
+									<h4 class="project-subtitle">Стоимость</h4>
+									<p class="project-paragraph">14 000 рублей</p>
+								</div>
+							</div>
+							<div class="project-feedback">
+								<img src="/img/slider/feedback-icon.svg" alt="Отзыв клиента" class="project-icon">
+								<div class="project-description">
+									<h4 class="project-subtitle">Отзыв клиента</h4>
+									<p class="project-paragraph">Мне понравилось работать с Артемом, потому что он все время
+										был на
+										связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были
+										закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с
+										документами все в порядке</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- If we need pagination -->
+				<div class="projects-pagination"></div>
+			</div>
+	</section>
 	<footer class="section">
 		<div class="container">
 			<h2 class="section-title">Свяжитесь со мной</h2>
@@ -158,7 +229,9 @@
 		<!-- /.container -->
 	</footer>
 	<!-- /.section -->
-
+	<script src="\js/wow.min.js"></script>
+	<script src="/js/swiper-bundle.min.js"></script>
+	<script src="\js/main.js"></script>
 
 </body>
 
