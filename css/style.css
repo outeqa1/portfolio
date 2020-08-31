@@ -261,14 +261,14 @@ body {
 
 .input-name {
 	margin-bottom: 17px;
-	background-image: url(img/phone/user-icon.svg);
+	background-image: url(https://outeqa1.github.io/portfolio/img/phone/user-icon.svg);
 	background-repeat: no-repeat;
 	background-position: center left 20px;
 }
 
 .input-phone {
 	margin-bottom: 26px;
-	background-image: url(img/phone/phone-icon.svg);
+	background-image: url(https://outeqa1.github.io/portfolio/img/phone/phone-icon.svg);
 	background-repeat: no-repeat;
 	background-position: center left 20px;
 }
