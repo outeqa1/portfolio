@@ -396,3 +396,36 @@ body {
 		margin-bottom: 58px;
 	}
 }
+
+@media (max-width: 564px) {
+	.hero {
+		padding-bottom: 75px;
+	}
+
+	.hero-subtitle {
+		font-size: 16px;
+		line-height: 27px;
+		margin-bottom: 5px;
+	}
+
+	.hero-title {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.hero-avatar {
+		width: 113px;
+		height: 113px;
+		border-width: 4px;
+		background-size: 100%;
+		background-position: center top;
+	}
+
+	.hero-header {
+		margin-bottom: 60px;
+	}
+
+	.section {
+		padding-top: 63px;
+	}
+}
